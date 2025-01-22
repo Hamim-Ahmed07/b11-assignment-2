@@ -1,0 +1,397 @@
+.rubik-normal{
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+body{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 120px;
+  background-color: #f2f2f2;
+
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.school{
+  display: flex;
+  margin-top: -30px;
+
+}
+.nav-img{
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+
+}
+.nav-h3{
+  font-size: xx-large;
+  font-weight: 500;
+  padding: 10px;
+}
+.nav-anchor{
+  margin: 10px;
+  
+}
+.nav-anchor a{
+  text-decoration: none;
+  
+}
+.anchor-1{
+  padding: 20px;
+  color: orange;
+}
+.anchor-2{
+  padding: 20px;
+  color: rgb(70, 191, 115);
+}
+.anchor-3{
+  padding: 20px;
+  color: rgb(120, 120, 218);
+
+}
+.anchor-4{
+  padding: 20px;
+  color: rgb(155, 95, 155);
+}
+.nav-btn{
+  width: 135px;
+  height: 45px;
+  border-radius: 10px;
+  border-color: orange;
+  background-color: orange;
+  color: aliceblue;
+  font-size: large;
+  font-weight: 600;
+  margin-top: -8px;
+}
+.header-container{
+  display: flex;
+  justify-content: space-between;
+}
+.header-content{
+  margin-top: 140px;
+  padding-right: 90px;
+}
+.header-heading{
+  font-size: 3.2rem;
+  font-weight: 500;
+  
+}
+.span-1{
+  color: orange;
+}
+.span-2{
+  color: rgb(80, 80, 240);
+}
+.header-description{
+  font-size: small;
+  font-weight: 500;
+  color: rgb(87, 86, 86);
+  margin-top: -8px;
+}
+.header-btn{
+  width: 140px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: rgb(21, 20, 20);
+  color: aliceblue;
+  font-size:medium;
+  font-weight: 600;
+  margin-top: 30px;
+}
+main{
+  background-image: url(assets/bg.png);
+  width: 100%;
+
+}
+
+.main-description{
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 80px;
+  font-weight: 400;
+
+}
+.main-content{
+  display: flex;
+  padding: 20px;
+
+}
+#box{
+  margin: 20px;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 10px 2px;
+}
+#box-1{
+  margin: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 10px 2px;
+}
+.box{
+  background-color: #63afb9;
+  background-image: linear-gradient(rgb(113, 113, 255), white, white);
+}
+.box-1{
+  background-color: #b5d49b;
+  background-image: linear-gradient(#b5d49b, white, white);
+}
+.box-2{
+  background-color: #fff;
+  background-image: linear-gradient(purple, white, white);
+}
+.box-btn{
+  background-color: #fff;
+  border: 0cap;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: .9rem;
+  font-weight: 600;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.box-content{
+  font-size: x-large;
+  font-weight: 400;
+  text-align: center;
+}
+#box-btn-1{
+  color: rgb(56, 143, 243);
+}
+#box-btn-2{
+  color: #b5d49b;
+}
+#box-btn-3{
+  color: rgb(147, 27, 147);
+}
+.box-description{
+  font-size: small;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px;
+}
+
+.section-h2{
+  text-align: center;
+  font-size: 3rem;
+}
+
+
+.story-1{
+  grid-area: story-1;
+  text-align: center;
+  background-color: rgb(50, 194, 226);
+  border-radius: 30px;
+  box-shadow: 1px 2px 5px 2px;
+}
+.story-2{
+  grid-area: story-2;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 2px 5px 2px;
+}
+.story-3{
+  grid-area: story-3;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 2px 5px 2px;
+}
+.story-4{
+  grid-area: story-4;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 1px 2px 5px 2px;
+}
+.story-5{
+  grid-area: story-5;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 1px 2px 5px 2px;
+}
+.section-h3{
+  text-align: center;
+  padding: 10px;
+  font-size: medium;
+}
+.section-h1{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.img-section{
+  display: grid;
+  grid-template-areas: 
+  "story-1 story-2 story-3"
+  "story-1 story-4 story-5"
+  ;
+  gap: 20px;
+
+}
+.img-1{
+  border-radius: 30px 30px 0px 0px;
+}
+.img{
+  border-radius: 20px 20px 0px 0px;
+  width: 320px;
+}
+.section-p{
+  font-size: small;
+  font-weight: 400;
+  padding: 10px;
+}
+.section-btn{
+  margin-left: 550px;
+  margin-top: 70px;
+  width: 150px;
+  height:40px;
+  border-radius: 10px;
+  background-color: rgb(50, 194, 226);
+  font-size: medium;
+  font-weight: 600;
+  border: 0cap;
+  box-shadow: 1px 1px 5px 1px;
+}
+
+.footer-content{
+  display: flex;
+}
+.footer-des{
+  font-size: medium;
+  font-weight: 300;
+  color: white;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  background-color: rgb(50, 194, 226);
+  padding: 80px 80px 80px 75px;
+  width: 113%;
+  margin-left: -130px;
+  margin-top: 50px;
+  height: 300px;
+}
+.f-a{
+  display: grid;
+
+}
+.f-a a{
+  text-decoration: none;
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.logos-des{
+  color: white;
+}
+.about-des{
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.kid-des{
+  color: white;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+.kid-img{
+  padding: 10px;
+}
+@media screen and (max-width: 576px) {
+  
+  .navbar{
+    flex-direction: column;
+  }
+  .nav-img{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+  }
+  .header-container{
+    flex-direction: column-reverse;
+  }
+  .nav-h3{
+    display: none;
+  }
+  .rubik-normal{
+    margin-left: 10px;
+  }
+
+
+  .hero-img{
+    width: 518px;
+    margin-left: 6px;
+
+  }
+  .header-heading{
+    font-size: 2.8rem;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -125px;
+    width: 450px;
+    
+  }
+  .header-description{
+    text-align: center;
+    font-size: medium;
+    margin-left: 30px;
+    width: 450px;
+    margin-top: 20px;
+  }
+  .header-btn{
+    margin-left: 185px;
+  }
+  .main-description{
+    margin-left: 50px;
+  }
+  .main-content{
+    flex-direction: column;
+    margin-left: -25px;
+  }
+  .box{
+    width: 445px;
+  }
+  .box-1{
+    width: 425px;
+  }
+  .box-2{
+    width: 425px;
+  }
+  .story-1{
+    display: none;
+  }
+  .footer{
+    flex-direction: column;
+    margin-left: -50px;
+    width: 442.3px;
+    height: 450px;
+
+  }
+  .box-btn{
+    margin-left: 150px;
+    padding: 0px;
+    margin-top: 20px;
+  }
+  .story-1,.story-2, .story-3, .story-4, .story-5{
+    width: 240px;
+    height: 230px;
+  }
+  .img{
+    width: 240px;
+    
+  }
+  .section-h2{
+    text-align: center;
+    margin-left: 70px;
+  }
+  .section-btn{
+    margin-left: 200px;
+  }
+}
